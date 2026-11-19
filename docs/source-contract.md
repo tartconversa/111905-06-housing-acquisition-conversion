@@ -8,7 +8,7 @@ acquisitions记录协议对房屋的有效权益，terminate引用agreement并�
 
 conversion给出原房屋范围到运营单元的覆盖，对同一原房屋的覆盖不可重复；safety与use_permit的scope覆盖运营单元，valid_from/valid_to限定资格。
 
-lease的signed表示已订立，starts/ends是租赁占用期，return是实际退租事实；physical_dispute记录物理已交接但产权存在争议的范围。面积均为平方米字符串。
+leases的signed表示已订立，starts/ends是租赁占用期，returned是实际退租日期，null表示没有退租回执；physical_dispute记录物理已交接但产权存在争议的范围。面积均为平方米字符串。
 
 ## 数据载体
 
