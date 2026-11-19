@@ -1,0 +1,3 @@
+{"coverage": ["0/1", "1/2"], "date": "2026-10-20", "handover_id": "H1", "home": "U1", "kind": "received"}
+{"coverage": ["0/1", "1/1"], "date": "2026-10-20", "handover_id": "H2", "home": "U2", "kind": "received"}
+{"coverage": ["0/1", "1/4"], "date": "2026-11-05", "handover_id": "DIS1", "home": "U1", "kind": "physical_dispute"}

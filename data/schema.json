@@ -1,0 +1,76 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "homes": {
+      "description": "商品房物理面积",
+      "fields": {
+        "home": "string",
+        "area_sqm": "string",
+        "project": "string"
+      }
+    },
+    "acquisitions": {
+      "description": "协议与权益",
+      "fields": {
+        "agreement": "string",
+        "package": "string",
+        "home": "string",
+        "coverage": "array",
+        "kind": "string",
+        "effective": "string",
+        "reference": "any"
+      }
+    },
+    "payments": {
+      "description": "实际付款",
+      "fields": {
+        "payment_id": "string",
+        "agreement": "string",
+        "amount_cents": "integer",
+        "date": "string"
+      }
+    },
+    "handovers": {
+      "description": "物理交接",
+      "fields": {
+        "handover_id": "string",
+        "home": "string",
+        "coverage": "array",
+        "date": "string",
+        "kind": "string"
+      }
+    },
+    "conversion": {
+      "description": "运营空间组成",
+      "fields": {
+        "conversion_id": "string",
+        "home": "string",
+        "coverage": "array",
+        "rental_unit": "string",
+        "effective": "string"
+      }
+    },
+    "qualifications": {
+      "description": "运营资格",
+      "fields": {
+        "proof_id": "string",
+        "kind": "string",
+        "scope": "string",
+        "valid_from": "string",
+        "valid_to": "any",
+        "received": "string"
+      }
+    },
+    "leases": {
+      "description": "租约与占用期间",
+      "fields": {
+        "lease_id": "string",
+        "unit": "string",
+        "signed": "string",
+        "starts": "string",
+        "ends": "string",
+        "returned": "any"
+      }
+    }
+  }
+}

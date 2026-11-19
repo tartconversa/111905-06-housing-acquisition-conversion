@@ -1,0 +1,3 @@
+{"agreement": "AG1", "coverage": ["0/1", "1/2"], "effective": "2026-10-10", "home": "U1", "kind": "acquire", "package": "PK1", "reference": null}
+{"agreement": "AG2", "coverage": ["0/1", "1/1"], "effective": "2026-10-10", "home": "U2", "kind": "acquire", "package": "PK1", "reference": null}
+{"agreement": "TERM1", "coverage": ["0/1", "1/4"], "effective": "2026-11-05", "home": "U1", "kind": "terminate", "package": "PK1", "reference": "AG1"}

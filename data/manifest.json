@@ -1,0 +1,47 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "homes.ndjson",
+      "dataset": "homes",
+      "rows": 2,
+      "sha256": "3e37005ec9fc3d21e58dedcc1d5a5ead3d911d41e4019e611fdaa775415f3005"
+    },
+    {
+      "path": "acquisitions.ndjson",
+      "dataset": "acquisitions",
+      "rows": 3,
+      "sha256": "448cb21f6fd7e7e80a7b7081dd35f2566808ab79524797e5926bb67e5e48e307"
+    },
+    {
+      "path": "payments.ndjson",
+      "dataset": "payments",
+      "rows": 2,
+      "sha256": "e9e829b1c5a19966d4c61d770614cb19c554cc904480b3f2d20ec1d4969fdf0f"
+    },
+    {
+      "path": "handovers.ndjson",
+      "dataset": "handovers",
+      "rows": 3,
+      "sha256": "fd9437b85c6d6fddebbd44122f0fb67e78e1bb2d9b220ee918e839851bd85649"
+    },
+    {
+      "path": "conversion.ndjson",
+      "dataset": "conversion",
+      "rows": 2,
+      "sha256": "f56025d63589972bdc73d58e102009096a8bf9043630b36b05eb27bb88ef61aa"
+    },
+    {
+      "path": "qualifications.ndjson",
+      "dataset": "qualifications",
+      "rows": 2,
+      "sha256": "f1d870a38717dc7a63a3b57925199731c0448effebb5c7ad72233645995e9152"
+    },
+    {
+      "path": "leases.ndjson",
+      "dataset": "leases",
+      "rows": 1,
+      "sha256": "23e60fbc5eda11c992e771d690f12579dc4d723479b6ff999c9f936104ee2113"
+    }
+  ]
+}
