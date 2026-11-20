@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "version_id": "v0001-d4d40b04b687c9e7",
+      "content_fingerprint": "d4d40b04b687c9e7",
+      "built_at": "2026-11-20T04:07:59",
+      "duckdb_path": "output/v0001-d4d40b04b687c9e7/warehouse.duckdb",
+      "note": ""
+    }
+  ]
+}
